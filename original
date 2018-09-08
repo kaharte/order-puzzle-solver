@@ -17,11 +17,11 @@ if __name__ == '__main__':
 
 
 """This is the order puzzle solver! Make sure you spell everything correctly
-and consistently (caps etc.)!!"""
+and consistently (caps etc.)!! Also, right now you can't have any items 
+that are just called 'x'. I plan on going back and fixing these issues in
+the future, allowing for items called 'x' and prompting for things to be
+re-entered if they are misspelled."""
 
-#make sure you don't have an item called x, make sure you don't have more than 1 of the same item
-"""make it so that you can have clues like 'so and so was not third' or 'so and
-so was not last' maybe make it so you can just type in the whole clue? (too ambitious?)"""
 
 import numbers
 
