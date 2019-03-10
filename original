@@ -195,6 +195,8 @@ print(knownItems)
 print("FrontList: ", frontList)
 print("BehindList: ", behindList)
 
-"""Note: min # of clues is len(orderlist) - 1, max # of clues is (len(orderlist) - 1)! Make sure to account for this
+"""Note: min # of clues is len(orderlist) - 1, max # of clues is (len(orderlist) - 1)!. Make sure to account for this
 with enough checks at the end--figure out how many times ending checks need to be repeated based on len(orderlist).
-Right now not sure if this program would accommodate very long puzzles."""
+Right now not sure if this program would accommodate very long puzzles. Maybe create a recursive function that checks
+whether the puzzle has been solved, and if not executes lines 185-191 again. Also should check if no progress is being
+made on the solution and break if that is the case."""
