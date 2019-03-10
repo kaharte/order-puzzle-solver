@@ -194,3 +194,7 @@ print(numOrderList)
 print(knownItems)
 print("FrontList: ", frontList)
 print("BehindList: ", behindList)
+
+"""Note: min # of clues is len(orderlist) - 1, max # of clues is (len(orderlist) - 1)! Make sure to account for this
+with enough checks at the end--figure out how many times ending checks need to be repeated based on len(orderlist).
+Right now not sure if this program would accommodate very long puzzles."""
