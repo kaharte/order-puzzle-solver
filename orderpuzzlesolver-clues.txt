@@ -1,0 +1,6 @@
+in front of, b, a
+in front of, c, a
+in front of, d, a
+behind, c, d
+behind, b, d
+behind, b, c
